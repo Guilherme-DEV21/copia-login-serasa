@@ -1,0 +1,132 @@
+/*--------- CONFIG'S PATTERN--------- */
+:root {
+    --color-dark-gray: #808080;
+    --color-magenta: #e63888;
+}
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*--------- HOME OF HEADER--------- */
+#header-login {
+    border-bottom: 1px solid #d6d7dc;
+    width: 100%;
+    height:10vh;
+}
+header div#logo-login img {
+    width: 78px;
+    position: relative;
+    top: 1.8em;
+    left: 5.5em;
+}
+header span#header-new-account {
+    color: var(--color-dark-gray);
+    margin-right: 7.5em;
+}
+header span#creat-account,
+footer p#link-privacity {
+    color: var(--color-magenta);
+    font-weight: bold;
+}
+header span#header-new-account, 
+header span#creat-account {
+    font-size: 1em;
+    position: absolute;
+    right: 5.5em;
+}
+/*--------- END OF HEADER--------- */
+
+/*--------- HOME OF SECTION LOGIN--------- */
+#session-login {
+    background-color:#eee ;
+    width: 100%;
+    height: 80vh;
+}
+#card-login {
+    width: 390px;
+    height: 506px;
+    background-color: #FFF;   
+    margin: auto;
+    border-radius: 5px;
+    position: relative;
+    top: 2.25rem;
+    border: 2px solid #dbdbdb99;
+}
+section h1 {
+    margin: auto;
+    margin-bottom: 24px;
+    padding-top:2.75rem ;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #111111;
+}
+section p{
+    margin: auto;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 0.5rem;
+    line-height: 1.5rem;
+    width: 70%;
+    color: #00082699;
+}
+section form {
+    margin: auto;
+    width: 70%;
+}
+section label {
+    font-weight: bold;
+}
+section input[type=number] {
+    border-radius: 5px;
+    margin-top: 0.8rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    height: 2.75rem;
+    outline: 0;
+    border: 1px solid #c2c4ca99 ;
+}
+section button {
+    padding: 12px;
+    font-weight: 550;
+    font-size: 1rem;
+    background-color: #c2c4ca99;
+    color: #41424499;
+    border-radius: 6px;
+    width: 102%;
+    height: 2.75rem;
+    border: 0;
+}
+section span {
+    position: relative;
+    top: 10rem;
+    left:1rem;
+    font-size: 0.9rem;
+    color: var(--color-dark-gray);
+}
+::placeholder {
+    padding-left: 1rem;
+    font-size: 1rem;
+}
+/*--------- END OF SECTION LOGIN--------- */
+
+/*--------- HOME OF FOOTER--------- */
+#footer-login {
+    width: 100%;
+    height: 10vh;
+    border-top: 1px solid #d6d7dc;
+    position: absolute;
+    bottom: 0;
+}
+footer p {
+    text-align: center;
+    position: relative;
+    bottom: 9.5px;
+}
+footer p#text-privacity {
+    color: var(--color-dark-gray);
+}
+/*--------- END OF HEADER--------- */
